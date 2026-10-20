@@ -1,0 +1,527 @@
+[
+  {
+    "id": "booktrust",
+    "compositionId": "BookTrust",
+    "pillar": "case-study",
+    "pillarLabel": "Case study",
+    "sourceUrl": "https://www.williamjoseph.co.uk/work/booktrust-website",
+    "sourceTitle": "Supporting families and professionals to get children reading",
+    "author": "William Joseph",
+    "post": "BookTrust’s website had to serve the professionals who get children reading, without losing parents and carers. Audience insight came before layout.",
+    "alt": "Motion graphic about the BookTrust website. It ends on the published homepage, shown in full inside a device frame.",
+    "beats": [
+      {
+        "type": "title",
+        "pair": "whiteOnPurple",
+        "kicker": "BookTrust",
+        "heading": "A website for the people who get children reading",
+        "caption": "BookTrust. A website for the people who get children reading.",
+        "durationInFrames": 132
+      },
+      {
+        "type": "data",
+        "pair": "inkOnYellow",
+        "value": "3 million+",
+        "label": "free books shared with families each year",
+        "source": "BookTrust, published via William Joseph",
+        "caption": "BookTrust shares over 3 million free books with families each year.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnCream",
+        "heading": "The audience had shifted.",
+        "body": "Professionals who support families are now the focus.",
+        "caption": "Professionals who support families are now front and centre.",
+        "durationInFrames": 156
+      },
+      {
+        "type": "device",
+        "pair": "inkOnMist",
+        "heading": "Who we listened to",
+        "items": [
+          "Teachers",
+          "Librarians",
+          "Health visitors",
+          "Social workers",
+          "Early years professionals"
+        ],
+        "caption": "We listened to teachers, librarians, health visitors, social workers and early years professionals.",
+        "durationInFrames": 168
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnAqua",
+        "heading": "Families still need a front door.",
+        "body": "A clear path for professionals, and one for parents and carers.",
+        "caption": "Parents and carers still need a clear path through the same website.",
+        "durationInFrames": 216
+      },
+      {
+        "type": "picture",
+        "pair": "inkOnCream",
+        "heading": "The homepage, with both front doors",
+        "image": "case-studies/booktrust-homepage.jpg",
+        "alt": "The published BookTrust homepage on a tablet, including the family hero and the route into support.",
+        "caption": "The BookTrust homepage keeps a way in for families and for professionals.",
+        "durationInFrames": 162
+      },
+      {
+        "type": "statement",
+        "pair": "creamOnTeal",
+        "heading": "Insight before interface.",
+        "body": "Research was trauma-informed. People were partners in the work.",
+        "caption": "Research was trauma-informed. People were partners in the work.",
+        "durationInFrames": 156
+      },
+      {
+        "type": "close",
+        "pair": "whiteOnTeal",
+        "heading": "Design from what people need.",
+        "url": "williamjoseph.co.uk",
+        "caption": "Design from what people actually need.",
+        "durationInFrames": 108
+      }
+    ],
+    "durationInFrames": 1279
+  },
+  {
+    "id": "charity-rebrands",
+    "compositionId": "CharityRebrands",
+    "pillar": "practical-advice",
+    "pillarLabel": "Practical advice",
+    "sourceUrl": "https://www.williamjoseph.co.uk/blog/why-charity-rebrands-are-different",
+    "sourceTitle": "Why charity rebrands are different",
+    "author": "Ed Risbey",
+    "post": "Charity rebrands are not commercial rebrands with a new coat of paint. Spend the money well, meet people where they are, and build a brand the team can actually use.",
+    "alt": "Motion graphic from William Joseph on why charity rebrands are different, including the share of small and micro charities and four practical tests.",
+    "beats": [
+      {
+        "type": "title",
+        "pair": "whiteOnTeal",
+        "kicker": "Practical advice",
+        "heading": "Why charity rebrands are different",
+        "caption": "Why charity rebrands are different.",
+        "durationInFrames": 102
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnCream",
+        "heading": "You are among peers, not rivals.",
+        "body": "Partners, patrons and the people you serve come first.",
+        "caption": "Charities work with peers, partners and patrons.",
+        "durationInFrames": 192
+      },
+      {
+        "type": "data",
+        "pair": "inkOnYellow",
+        "value": "80%",
+        "label": "of the sector is small and micro charities",
+        "source": "William Joseph, on charity rebrands",
+        "caption": "Over 80 percent of the sector is small and micro charities.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnMist",
+        "heading": "Spend the money well.",
+        "body": "A rebrand should help the mission. If it cannot, pause.",
+        "caption": "A rebrand should help the mission. If it cannot, pause.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnAqua",
+        "heading": "Bold is welcome.",
+        "body": "Looking wasteful is not. Authentic beats expensive.",
+        "caption": "Bold is welcome. Looking wasteful is not.",
+        "durationInFrames": 132
+      },
+      {
+        "type": "statement",
+        "pair": "whiteOnInk",
+        "heading": "Accessible does not mean ugly.",
+        "body": "Contrast, type and structure are the brand.",
+        "caption": "Accessible does not mean ugly. Contrast, type and structure are the brand.",
+        "durationInFrames": 156
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnCream",
+        "heading": "Empower the team.",
+        "body": "If the team cannot use the brand, it will not last.",
+        "caption": "If the team cannot use the brand, it will not last.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "close",
+        "pair": "whiteOnTeal",
+        "heading": "Root it in mission, people and audiences.",
+        "url": "williamjoseph.co.uk",
+        "caption": "Root the rebrand in mission, people and audiences.",
+        "durationInFrames": 132
+      }
+    ],
+    "durationInFrames": 1257
+  },
+  {
+    "id": "digital-maturity",
+    "compositionId": "DigitalMaturity",
+    "pillar": "data-insight",
+    "pillarLabel": "Data and insight",
+    "sourceUrl": "https://www.williamjoseph.co.uk/blog/digital-maturity-the-what-why-and-how",
+    "sourceTitle": "Digital maturity: the what, why and how",
+    "author": "Yasmin Georgiou",
+    "post": "Digital maturity is not a league table. It is how a charity reaches digital goals that are actually tied to the mission. The organisations that describe themselves as digitally mature are far more likely to get there.",
+    "alt": "Motion graphic defining digital maturity, with figures from the Salesforce Nonprofit Trends report and a now, next and future matrix.",
+    "beats": [
+      {
+        "type": "title",
+        "pair": "whiteOnTeal",
+        "kicker": "Data and insight",
+        "heading": "Digital maturity is a practice, not a score",
+        "caption": "Digital maturity is a practice, not a score.",
+        "durationInFrames": 144
+      },
+      {
+        "type": "quote",
+        "pair": "inkOnAqua",
+        "quote": "Reaching digital goals that are linked to organisational goals.",
+        "attribution": "William Joseph",
+        "caption": "Digital maturity means reaching digital goals linked to organisational goals.",
+        "durationInFrames": 144
+      },
+      {
+        "type": "data",
+        "pair": "inkOnYellow",
+        "value": "12%",
+        "label": "of not-for-profits describe themselves as digitally mature",
+        "source": "Salesforce Nonprofit Trends report",
+        "caption": "Only 12 percent of not-for-profits describe themselves as digitally mature.",
+        "durationInFrames": 156
+      },
+      {
+        "type": "data",
+        "pair": "whiteOnInk",
+        "value": "4×",
+        "label": "more likely to achieve their mission goals",
+        "source": "Salesforce Nonprofit Trends report",
+        "caption": "Digitally mature organisations are four times more likely to achieve their mission goals.",
+        "durationInFrames": 168
+      },
+      {
+        "type": "device",
+        "pair": "inkOnCream",
+        "heading": "Three building blocks",
+        "items": [
+          "Five to seven categories",
+          "A vision of what good looks like",
+          "A matrix from now to future"
+        ],
+        "caption": "Three building blocks. Categories, a vision of what good looks like, and a matrix.",
+        "durationInFrames": 252
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnMist",
+        "heading": "Plot now, next and future.",
+        "body": "Levels run from 1 to 5, across the whole organisation.",
+        "caption": "Plot now, next and future, from level 1 up to the vision.",
+        "durationInFrames": 192
+      },
+      {
+        "type": "statement",
+        "pair": "creamOnTeal",
+        "heading": "High numbers can still be fragile.",
+        "body": "Strong performance can hide an unsustainable culture.",
+        "caption": "If performance is high and maturity is low, the result may not last.",
+        "durationInFrames": 168
+      },
+      {
+        "type": "close",
+        "pair": "whiteOnTeal",
+        "heading": "Make the model fit the organisation.",
+        "url": "williamjoseph.co.uk",
+        "caption": "Make the digital maturity model fit the organisation.",
+        "durationInFrames": 120
+      }
+    ],
+    "durationInFrames": 1344
+  },
+  {
+    "id": "paul-hamlyn-foundation",
+    "compositionId": "PaulHamlynFoundation",
+    "pillar": "case-study",
+    "pillarLabel": "Case study",
+    "sourceUrl": "https://www.williamjoseph.co.uk/work/paul-hamlyn-foundation-brand-and-website",
+    "sourceTitle": "A refreshed brand and website for a bold new mission, culture and focus on fairness",
+    "author": "William Joseph",
+    "post": "Paul Hamlyn Foundation’s brand needed to feel as fair, and as warm, as the relationships behind it. A refreshed identity and a clearer fund finder closed that gap.",
+    "alt": "Motion graphic about the Paul Hamlyn Foundation brand and website. It shows the published fund finder, with the amount, duration and deadline.",
+    "beats": [
+      {
+        "type": "title",
+        "pair": "whiteOnTeal",
+        "kicker": "Paul Hamlyn Foundation",
+        "heading": "A brand that feels like the relationship",
+        "caption": "Paul Hamlyn Foundation. A brand that feels like the relationship.",
+        "durationInFrames": 132
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnCream",
+        "heading": "The identity lagged behind the mission.",
+        "body": "Warm, long-term relationships were not yet visible.",
+        "caption": "The old identity lagged behind a mission centred on fairness.",
+        "durationInFrames": 168
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnMist",
+        "heading": "We started with both sides of the table.",
+        "body": "Grantees and the team shaped a shared mission language.",
+        "caption": "Grantees and the team shaped a shared language for the mission.",
+        "durationInFrames": 216
+      },
+      {
+        "type": "device",
+        "pair": "inkOnCream",
+        "heading": "Fund finding, in plain language",
+        "items": [
+          "Who it is for",
+          "How much it awards",
+          "How long it lasts",
+          "When you can apply"
+        ],
+        "caption": "Show who the fund is for, the amount, the duration and when to apply.",
+        "durationInFrames": 264
+      },
+      {
+        "type": "picture",
+        "pair": "inkOnMist",
+        "heading": "The fund finder, as it shipped",
+        "image": "case-studies/phf-fund-finder.jpg",
+        "alt": "The published Paul Hamlyn Foundation fund finder on a phone, beside cards for the amount, duration and deadline.",
+        "caption": "The fund finder shows the amount, the duration and when to apply.",
+        "durationInFrames": 162
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnYellow",
+        "heading": "A finder should remove a barrier.",
+        "body": "It should never get in the way.",
+        "caption": "A fund finder should remove a barrier, not add one.",
+        "durationInFrames": 168
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnAqua",
+        "heading": "Built to be used, not only admired.",
+        "body": "A toolkit the team can carry, on a site applicants can follow.",
+        "caption": "A visual toolkit the team can use, and a site applicants can follow.",
+        "durationInFrames": 241
+      },
+      {
+        "type": "close",
+        "pair": "whiteOnInk",
+        "heading": "Bold and colourful. Highly accessible.",
+        "url": "williamjoseph.co.uk",
+        "caption": "Bold and colourful, and highly accessible.",
+        "durationInFrames": 108
+      }
+    ],
+    "durationInFrames": 1459
+  },
+  {
+    "id": "public-attitudes-to-ai",
+    "compositionId": "PublicAttitudesToAi",
+    "pillar": "data-insight",
+    "pillarLabel": "Data and insight",
+    "sourceUrl": "https://www.williamjoseph.co.uk/work/ada-lovelace-ai-survey-website",
+    "sourceTitle": "Investigating public attitudes to artificial intelligence",
+    "author": "William Joseph",
+    "post": "The British public is not simply for or against AI. A nationally representative survey shows where people feel the benefit, and where they want a human in the loop.",
+    "alt": "Motion graphic of survey findings on public attitudes to AI in Britain, including cancer detection and concern about professional judgement. No photographs of people.",
+    "beats": [
+      {
+        "type": "title",
+        "pair": "whiteOnPurple",
+        "kicker": "Data and insight",
+        "heading": "What the public actually thinks about AI",
+        "caption": "What the public actually thinks about AI.",
+        "durationInFrames": 132
+      },
+      {
+        "type": "data",
+        "pair": "whiteOnInk",
+        "value": "4,000+",
+        "label": "adults in Britain took part in the survey",
+        "source": "Ada Lovelace Institute and the Alan Turing Institute",
+        "caption": "More than 4,000 adults in Britain took part in a nationally representative survey.",
+        "durationInFrames": 228
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnCream",
+        "heading": "People are broadly positive.",
+        "body": "They are also highly specific. The use matters more than the label.",
+        "caption": "People are broadly positive about AI, and highly specific about each use.",
+        "durationInFrames": 204
+      },
+      {
+        "type": "data",
+        "pair": "inkOnYellow",
+        "value": "9 in 10",
+        "label": "find AI for cancer detection broadly beneficial",
+        "source": "Ada Lovelace Institute and the Alan Turing Institute",
+        "caption": "9 in 10 adults find AI for cancer detection broadly beneficial.",
+        "durationInFrames": 228
+      },
+      {
+        "type": "data",
+        "pair": "inkOnAqua",
+        "value": "56%",
+        "label": "worry about replacing professional judgement",
+        "source": "Ada Lovelace Institute and the Alan Turing Institute",
+        "caption": "56 percent worry about relying on the technology instead of professional judgement.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "statement",
+        "pair": "creamOnTeal",
+        "heading": "People want regulation.",
+        "body": "That view is not the same in every age group.",
+        "caption": "People want AI regulation, and that view changes with age.",
+        "durationInFrames": 168
+      },
+      {
+        "type": "close",
+        "pair": "whiteOnInk",
+        "heading": "Design for nuance, not a single opinion.",
+        "url": "williamjoseph.co.uk",
+        "caption": "Design for nuance, not a single public opinion.",
+        "durationInFrames": 132
+      }
+    ],
+    "durationInFrames": 1273
+  },
+  {
+    "id": "seven-barriers",
+    "compositionId": "SevenBarriers",
+    "pillar": "practical-advice",
+    "pillarLabel": "Practical advice",
+    "sourceUrl": "https://www.williamjoseph.co.uk/blog/seven-barriers-to-creating-a-content-led-culture-and-how-to-overcome-them",
+    "sourceTitle": "Seven barriers to creating a content-led culture and how to overcome them",
+    "author": "Yasmin Georgiou",
+    "post": "A content strategy only sticks when the culture does. Seven barriers we see in almost every charity, and a practical way through each one.",
+    "alt": "Motion graphic from William Joseph. A title for seven barriers to a content-led culture, a diagram of people, processes and tools, then one action for each barrier.",
+    "beats": [
+      {
+        "type": "title",
+        "pair": "whiteOnTeal",
+        "kicker": "Practical advice",
+        "heading": "Seven barriers to creating a content-led culture",
+        "caption": "Seven barriers to creating a content-led culture.",
+        "durationInFrames": 120
+      },
+      {
+        "type": "statement",
+        "pair": "inkOnCream",
+        "heading": "A strategy only sticks when the culture does.",
+        "body": "Move people, processes and tools together.",
+        "caption": "A strategy only sticks when the culture does.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "venn",
+        "pair": "inkOnCream",
+        "heading": "Content culture lives in the overlap",
+        "left": "People",
+        "right": "Processes",
+        "bottom": "Tools",
+        "centre": "Content culture",
+        "caption": "Content culture sits where people, processes and tools overlap.",
+        "durationInFrames": 144
+      },
+      {
+        "type": "point",
+        "pair": "inkOnCream",
+        "index": 1,
+        "total": 7,
+        "heading": "Shared understanding",
+        "body": "Co-create what content means for your organisation.",
+        "caption": "1 of 7. Shared understanding. Co-create what content means for you.",
+        "durationInFrames": 156
+      },
+      {
+        "type": "point",
+        "pair": "inkOnMist",
+        "index": 2,
+        "total": 7,
+        "heading": "Relationships",
+        "body": "Group people by what they need, not by job title.",
+        "caption": "2 of 7. Relationships. Group people by what they need.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "point",
+        "pair": "inkOnCream",
+        "index": 3,
+        "total": 7,
+        "heading": "Common goals",
+        "body": "Name what you share, and where you truly differ.",
+        "caption": "3 of 7. Common goals. Name what you share and where you differ.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "point",
+        "pair": "inkOnMist",
+        "index": 4,
+        "total": 7,
+        "heading": "Ways of working",
+        "body": "Design the process while you write the strategy.",
+        "caption": "4 of 7. Ways of working. Design the process while you write the strategy.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "point",
+        "pair": "inkOnCream",
+        "index": 5,
+        "total": 7,
+        "heading": "Skills and capabilities",
+        "body": "Make time to practise, not only to read.",
+        "caption": "5 of 7. Skills and capabilities. Make time to practise, not only to read.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "point",
+        "pair": "inkOnMist",
+        "index": 6,
+        "total": 7,
+        "heading": "Audience insight",
+        "body": "Start small, then let the evidence make the case.",
+        "caption": "6 of 7. Audience insight. Start small, then let evidence make the case.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "point",
+        "pair": "inkOnCream",
+        "index": 7,
+        "total": 7,
+        "heading": "Measurement",
+        "body": "Set goals everyone can see, and talk about them often.",
+        "caption": "7 of 7. Measurement. Set goals everyone can see, and talk about them.",
+        "durationInFrames": 181
+      },
+      {
+        "type": "close",
+        "pair": "whiteOnTeal",
+        "heading": "Start with one honest conversation.",
+        "url": "williamjoseph.co.uk",
+        "caption": "Start with one honest conversation. William Joseph.",
+        "durationInFrames": 108
+      }
+    ],
+    "durationInFrames": 1795
+  }
+]
