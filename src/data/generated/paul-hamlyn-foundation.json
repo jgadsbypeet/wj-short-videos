@@ -1,0 +1,75 @@
+{
+  "id": "paul-hamlyn-foundation",
+  "compositionId": "PaulHamlynFoundation",
+  "pillar": "case-study",
+  "pillarLabel": "Case study",
+  "sourceUrl": "https://www.williamjoseph.co.uk/work/paul-hamlyn-foundation-brand-and-website",
+  "sourceTitle": "A refreshed brand and website for a bold new mission, culture and focus on fairness",
+  "author": "William Joseph",
+  "post": "Paul Hamlyn Foundation’s brand needed to feel as fair, and as warm, as the relationships behind it. A refreshed identity and a clearer fund finder closed that gap.",
+  "alt": "Abstract motion graphic about the Paul Hamlyn Foundation brand and website. A simple fund finder is shown. There are no photographs of people.",
+  "beats": [
+    {
+      "type": "title",
+      "pair": "whiteOnTeal",
+      "kicker": "Paul Hamlyn Foundation",
+      "heading": "A brand that feels like the relationship",
+      "caption": "Paul Hamlyn Foundation. A brand that feels like the relationship.",
+      "durationInFrames": 132
+    },
+    {
+      "type": "statement",
+      "pair": "inkOnCream",
+      "heading": "The identity lagged behind the mission.",
+      "body": "Warm, long-term relationships were not yet visible.",
+      "caption": "The old identity lagged behind a mission centred on fairness.",
+      "durationInFrames": 168
+    },
+    {
+      "type": "statement",
+      "pair": "inkOnMist",
+      "heading": "We started with both sides of the table.",
+      "body": "Grantees and the team shaped a shared mission language.",
+      "caption": "Grantees and the team shaped a shared language for the mission.",
+      "durationInFrames": 216
+    },
+    {
+      "type": "device",
+      "pair": "inkOnCream",
+      "heading": "Fund finding, in plain language",
+      "items": [
+        "Who it is for",
+        "How much it awards",
+        "How long it lasts",
+        "When you can apply"
+      ],
+      "caption": "Show who the fund is for, the amount, the duration and when to apply.",
+      "durationInFrames": 264
+    },
+    {
+      "type": "statement",
+      "pair": "inkOnYellow",
+      "heading": "A finder should remove a barrier.",
+      "body": "It should never get in the way.",
+      "caption": "A fund finder should remove a barrier, not add one.",
+      "durationInFrames": 168
+    },
+    {
+      "type": "statement",
+      "pair": "inkOnAqua",
+      "heading": "Built to be used, not only admired.",
+      "body": "A toolkit the team can carry, on a site applicants can follow.",
+      "caption": "A visual toolkit the team can use, and a site applicants can follow.",
+      "durationInFrames": 241
+    },
+    {
+      "type": "close",
+      "pair": "whiteOnInk",
+      "heading": "Bold and colourful. Highly accessible.",
+      "url": "williamjoseph.co.uk",
+      "caption": "Bold and colourful, and highly accessible.",
+      "durationInFrames": 108
+    }
+  ],
+  "durationInFrames": 1297
+}

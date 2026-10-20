@@ -1,0 +1,79 @@
+{
+  "id": "charity-rebrands",
+  "compositionId": "CharityRebrands",
+  "pillar": "practical-advice",
+  "pillarLabel": "Practical advice",
+  "sourceUrl": "https://www.williamjoseph.co.uk/blog/why-charity-rebrands-are-different",
+  "sourceTitle": "Why charity rebrands are different",
+  "author": "Ed Risbey",
+  "post": "Charity rebrands are not commercial rebrands with a new coat of paint. Spend the money well, meet people where they are, and build a brand the team can actually use.",
+  "alt": "Motion graphic from William Joseph on why charity rebrands are different, including the share of small and micro charities and four practical tests.",
+  "beats": [
+    {
+      "type": "title",
+      "pair": "whiteOnTeal",
+      "kicker": "Practical advice",
+      "heading": "Why charity rebrands are different",
+      "caption": "Why charity rebrands are different.",
+      "durationInFrames": 102
+    },
+    {
+      "type": "statement",
+      "pair": "inkOnCream",
+      "heading": "You are among peers, not rivals.",
+      "body": "Partners, patrons and the people you serve come first.",
+      "caption": "Charities work with peers, partners and patrons.",
+      "durationInFrames": 192
+    },
+    {
+      "type": "data",
+      "pair": "inkOnYellow",
+      "value": "80%",
+      "label": "of the sector is small and micro charities",
+      "source": "William Joseph, on charity rebrands",
+      "caption": "Over 80 percent of the sector is small and micro charities.",
+      "durationInFrames": 181
+    },
+    {
+      "type": "statement",
+      "pair": "inkOnMist",
+      "heading": "Spend the money well.",
+      "body": "A rebrand should help the mission. If it cannot, pause.",
+      "caption": "A rebrand should help the mission. If it cannot, pause.",
+      "durationInFrames": 181
+    },
+    {
+      "type": "statement",
+      "pair": "inkOnAqua",
+      "heading": "Bold is welcome.",
+      "body": "Looking wasteful is not. Authentic beats expensive.",
+      "caption": "Bold is welcome. Looking wasteful is not.",
+      "durationInFrames": 132
+    },
+    {
+      "type": "statement",
+      "pair": "whiteOnInk",
+      "heading": "Accessible does not mean ugly.",
+      "body": "Contrast, type and structure are the brand.",
+      "caption": "Accessible does not mean ugly. Contrast, type and structure are the brand.",
+      "durationInFrames": 156
+    },
+    {
+      "type": "statement",
+      "pair": "inkOnCream",
+      "heading": "Empower the team.",
+      "body": "If the team cannot use the brand, it will not last.",
+      "caption": "If the team cannot use the brand, it will not last.",
+      "durationInFrames": 181
+    },
+    {
+      "type": "close",
+      "pair": "whiteOnTeal",
+      "heading": "Root it in mission, people and audiences.",
+      "url": "williamjoseph.co.uk",
+      "caption": "Root the rebrand in mission, people and audiences.",
+      "durationInFrames": 132
+    }
+  ],
+  "durationInFrames": 1257
+}
