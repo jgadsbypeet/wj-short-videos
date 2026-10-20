@@ -1,6 +1,7 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { parseArticle } from "../src/lib/parse-article";
+import { assertPublicImage } from "../src/lib/public-image";
 
 const articlesDir = path.join(process.cwd(), "content/articles");
 const outputDir = path.join(process.cwd(), "src/data/generated");
@@ -15,7 +16,7 @@ if (files.length === 0) {
 
 const scripts = files.map((file) => {
   const markdown = readFileSync(path.join(articlesDir, file), "utf8");
-  return parseArticle(markdown, file);
+  return parseArticle(markdown, file, { assertImage: assertPublicImage });
 });
 
 mkdirSync(outputDir, { recursive: true });

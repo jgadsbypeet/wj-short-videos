@@ -15,5 +15,5 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["node"]
   },
-  "include": ["src", "scripts", "tests", "remotion.config.ts"]
+  "include": ["src", "scripts", "tests", "site", "vite.config.ts", "remotion.config.ts"]
 }

@@ -174,6 +174,7 @@ flowchart LR
 | `src/components/` | Kinetic type, quote card, data callout, vector device, Venn, captions |
 | `src/compositions/InsightVideo.tsx` | One player for every script, both formats |
 | `scripts/render-videos.ts` | Bundles once, then writes H.264 and WebVTT |
+| `site/` | Browser preview. Plays the films beside the markdown. Netlify publishes it |
 
 Each script is registered twice: `CompositionIdSquare` at 1080×1080 and `CompositionIdPortrait` at 1080×1350, 30fps. Beats are hard cuts. A crossfade would put type on a colour it was not checked against.
 
@@ -199,6 +200,12 @@ out/seven-barriers-square.vtt
 out/seven-barriers-portrait.mp4
 out/seven-barriers-portrait-reduced.mp4
 ```
+
+## Preview
+
+Show the work before any MP4 is rendered. `npm run site` plays all six films in the browser, next to the markdown, the post and the alt text. Netlify publishes that page from GitHub. The build command is `npm run check && npm run build`, and the publish directory is `dist`.
+
+The MP4s for LinkedIn still come from `npm run render-videos`. The preview and the file are the same composition.
 
 ## Case-study imagery
 

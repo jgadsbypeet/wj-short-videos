@@ -5,6 +5,9 @@
   "description": "Code-driven short-form video engine for William Joseph.",
   "scripts": {
     "dev": "remotion studio",
+    "site": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "ingest": "tsx scripts/ingest-articles.ts",
     "render-videos": "tsx scripts/render-videos.ts",
     "test": "tsx --test tests/*.test.ts",
@@ -16,6 +19,7 @@
     "@remotion/bundler": "^4.0.537",
     "@remotion/cli": "^4.0.537",
     "@remotion/google-fonts": "^4.0.537",
+    "@remotion/player": "^4.0.537",
     "@remotion/renderer": "^4.0.537",
     "@remotion/tailwind": "^4.0.537",
     "react": "^19.3.1",
@@ -26,10 +30,12 @@
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.6.1",
     "postcss": "^8.5.31",
     "tailwindcss": "^3.4.19",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vite": "^6.4.4"
   }
 }

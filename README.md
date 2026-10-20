@@ -35,3 +35,17 @@ An MP4 cannot follow a viewer’s operating system setting. The studio preview d
 Scripts are markdown in `content/articles`. `npm run ingest` turns them into `src/data/generated/scripts.json`, which the compositions read. Edit the markdown, not the JSON.
 
 The campaign plan, the six scripts and the Trello path are in [STRATEGY.md](STRATEGY.md).
+
+## Show someone the films
+
+`npm run site` plays all six films in the browser, next to the markdown that drives each one. Portrait and square are the same composition. A change in the file updates the picture, the post and the alt text. The rules still apply: a broken edit is refused, and the player keeps the last version that passed.
+
+Netlify publishes that page from GitHub. `netlify.toml` already sets the build.
+
+1. In Netlify, add a site from this repository.
+2. Leave the build command as `npm run check && npm run build` and the publish directory as `dist`.
+3. Node 22 is set in `netlify.toml`.
+
+A push runs the editorial checks, then updates the preview. The MP4s for LinkedIn are not part of that build. Render them with `npm run render-videos` when a film is ready to publish. The preview and the file are the same composition.
+
+A new case-study still also needs its path added to `site/parse-preview.ts`, so the preview can confirm the file exists.
