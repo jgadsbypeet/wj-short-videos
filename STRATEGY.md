@@ -1,6 +1,6 @@
 # Short-form video engine
 
-A campaign plan for William Joseph, and the Remotion pipeline that produces it. The audience is digital leads, marketing directors, communications managers and CEOs at UK charities and foundations. The tone is friendly, expert and peer to peer. Every film helps someone make a better decision. None of them show a face.
+A campaign plan for William Joseph, and the Remotion pipeline that produces it. The audience is digital leads, marketing directors, communications managers and CEOs at UK charities and foundations. The tone is friendly, expert and peer to peer. Every film helps someone make a better decision. Advice and data films are type and diagrams. Case-study films can also show one published project still, in full.
 
 The live site is the brand system. Tokens in `src/theme/brand.ts` were read from `main-f5e876e7c7.css` on 20 October 2026.
 
@@ -39,13 +39,13 @@ Reading time is 150 words per minute. Words on screen at once are added together
 
 ## Who it is for, and the three pillars
 
-Primary channel is LinkedIn, in 1080×1350 and 1080×1080. The same files go to Instagram feeds and Bluesky. Do not crop in a face, a stock photo or a client screenshot. Case-study films are abstract: type, numbers and a flat device.
+Primary channel is LinkedIn, in 1080×1350 and 1080×1080. The same files go to Instagram feeds and Bluesky. Advice and data films are type, numbers and diagrams. Case-study films add the published project image, shown whole inside the device.
 
 | Pillar | Job | Films |
 | --- | --- | --- |
 | Practical advice | A micro-guide someone can use this week | Seven barriers, 59.8s. Charity rebrands, 41.9s |
 | Data and insight | One or two sourced numbers, then a decision | Public attitudes to AI, 42.4s. Digital maturity, 44.8s |
-| Case study | Impact without a portrait | Paul Hamlyn Foundation, 43.2s. BookTrust, 37.2s |
+| Case study | The published project, shown whole | Paul Hamlyn Foundation. BookTrust |
 
 Post copy and alt text live in each article’s `meta` block. Alt text is required on LinkedIn, Instagram and Bluesky. Say that the film is motion graphics and that there are no photographs of people.
 
@@ -123,27 +123,29 @@ Pillar: data and insight. 44.8 seconds. Source: Yasmin Georgiou, 25 May 2023. Th
 
 ### 5. Paul Hamlyn Foundation
 
-Pillar: case study. 43.2 seconds. Abstract only. No grant figures were invented.
+Pillar: case study. No grant figures were invented. The fund finder is the image from the published case study.
 
 1. Title. A brand that feels like the relationship.
 2. The identity lagged behind the mission. Warm, long-term relationships were not yet visible.
 3. We started with both sides of the table. Grantees and the team shaped a shared mission language.
 4. Device. Fund finding, in plain language: who it is for, how much it awards, how long it lasts, when you can apply.
-5. A finder should remove a barrier. It should never get in the way.
-6. Built to be used, not only admired.
-7. Close. Bold and colourful. Highly accessible.
+5. Picture. The published fund finder, shown whole.
+6. A finder should remove a barrier. It should never get in the way.
+7. Built to be used, not only admired.
+8. Close. Bold and colourful. Highly accessible.
 
 ### 6. BookTrust
 
-Pillar: case study. 37.2 seconds. The book figure is the one published on the case study: over 3 million free books a year.
+Pillar: case study. The book figure, and the homepage image, are the ones published on the case study. Over 3 million free books a year.
 
 1. Title. A website for the people who get children reading.
 2. 3 million+ free books shared with families each year.
 3. The audience had shifted. Professionals who support families are now the focus.
 4. Device. Who we listened to: teachers, librarians, health visitors, social workers, early years professionals.
 5. Families still need a front door. A clear path for professionals, and one for parents and carers.
-6. Insight before interface. Research was trauma-informed. People were partners in the work.
-7. Close. Design from what people need.
+6. Picture. The published BookTrust homepage, shown whole inside the device frame.
+7. Insight before interface. Research was trauma-informed. People were partners in the work.
+8. Close. Design from what people need.
 
 Access to Justice Foundation is the next case-study card, not a seventh film in this set. Same pattern: the barrier the old identity created, the plain-language job of the new site, no invented metrics, no portraits.
 
@@ -198,6 +200,12 @@ out/seven-barriers-portrait.mp4
 out/seven-barriers-portrait-reduced.mp4
 ```
 
+## Case-study imagery
+
+Case-study films can hold a `picture` beat. The file lives in `public/case-studies/` and is a still downloaded from the published project page. It is shown whole, with `object-fit: contain`, inside the square device. The frame does not crop in on a person.
+
+BookTrust uses the homepage from the case study. Paul Hamlyn Foundation uses the fund finder. Advice films and data films stay as type and diagrams. The wordmark in the corner is the drawn logo, light on dark canvases and ink on light ones.
+
 ## What we did not do
 
-We did not put staff, grantees or families on screen. We did not paste City Bridge Foundation or Felix photography into a timeline. Those case studies shaped the device frames and the flat colour blocks. The pixels in the films are William Joseph colours and William Joseph words.
+We did not use portraits of the William Joseph team. City Bridge Foundation and Felix stay as references for the device frame, not as extra films.

@@ -71,6 +71,17 @@ export type DeviceBeat = {
   durationInFrames: number;
 };
 
+export type PictureBeat = {
+  type: "picture";
+  pair: PairName;
+  heading: string;
+  /** Path inside public/, for example case-studies/booktrust-homepage.jpg */
+  image: string;
+  alt: string;
+  caption: string;
+  durationInFrames: number;
+};
+
 export type ListBeat = {
   type: "list";
   pair: PairName;
@@ -97,6 +108,7 @@ export type Beat =
   | VennBeat
   | PointBeat
   | DeviceBeat
+  | PictureBeat
   | ListBeat
   | CloseBeat;
 

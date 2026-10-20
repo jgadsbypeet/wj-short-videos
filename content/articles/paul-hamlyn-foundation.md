@@ -10,7 +10,7 @@ author: William Joseph
 
 ## meta
 post: Paul Hamlyn Foundation’s brand needed to feel as fair, and as warm, as the relationships behind it. A refreshed identity and a clearer fund finder closed that gap.
-alt: Abstract motion graphic about the Paul Hamlyn Foundation brand and website. A simple fund finder is shown. There are no photographs of people.
+alt: Motion graphic about the Paul Hamlyn Foundation brand and website. It shows the published fund finder, with the amount, duration and deadline.
 
 ## title
 pair: whiteOnTeal
@@ -35,6 +35,14 @@ pair: inkOnCream
 heading: Fund finding, in plain language
 items: Who it is for | How much it awards | How long it lasts | When you can apply
 caption: Show who the fund is for, the amount, the duration and when to apply.
+
+## picture
+pair: inkOnMist
+heading: The fund finder, as it shipped
+image: case-studies/phf-fund-finder.jpg
+alt: The published Paul Hamlyn Foundation fund finder on a phone, beside cards for the amount, duration and deadline.
+caption: The fund finder shows the amount, the duration and when to apply.
+minSeconds: 5
 
 ## statement
 pair: inkOnYellow

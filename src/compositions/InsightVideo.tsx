@@ -5,6 +5,7 @@ import { ReducedMotionProvider } from "../theme/motion";
 import { useBrandFonts } from "../theme/fonts";
 import type { Beat, InsightVideoProps } from "../lib/types";
 import { BeatFrame } from "../components/BeatFrame";
+import { CaseStudyStill } from "../components/CaseStudyStill";
 import { CaptionTrack } from "../components/CaptionTrack";
 import { DataCallout } from "../components/DataCallout";
 import { KineticType } from "../components/KineticType";
@@ -36,7 +37,7 @@ function BeatView({ beat }: { beat: Beat }) {
 
   return (
     <BeatFrame pair={pair}>
-      <Wordmark color={pair.fg} />
+      <Wordmark background={pair.bg} />
       {beat.type === "title" ? (
         <div className="flex flex-1 flex-col justify-end" style={{ paddingBottom: 24 }}>
           <Kicker text={beat.kicker} color={pair.fg} />
@@ -86,6 +87,9 @@ function BeatView({ beat }: { beat: Beat }) {
       ) : null}
       {beat.type === "device" ? (
         <VectorDevice heading={beat.heading} items={beat.items} color={pair.fg} />
+      ) : null}
+      {beat.type === "picture" ? (
+        <CaseStudyStill heading={beat.heading} image={beat.image} alt={beat.alt} color={pair.fg} />
       ) : null}
       {beat.type === "list" ? (
         <StackedList heading={beat.heading} items={beat.items} color={pair.fg} background={pair.bg} />

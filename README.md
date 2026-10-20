@@ -1,6 +1,6 @@
 # William Joseph short-form video engine
 
-Motion-graphics films for LinkedIn, with the same cuts used on Instagram and Bluesky. No people on camera. The live site at [williamjoseph.co.uk](https://williamjoseph.co.uk) is the visual source of truth.
+Motion-graphics films for LinkedIn, with the same cuts used on Instagram and Bluesky. Advice and data films are type and diagrams. Case-study films can include one still from the published project page, shown whole. The live site at [williamjoseph.co.uk](https://williamjoseph.co.uk) is the visual source of truth. The corner lockup is the drawn wordmark.
 
 ## Run
 

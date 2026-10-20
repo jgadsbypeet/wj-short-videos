@@ -55,6 +55,8 @@ function visibleWordSource(beat: { type: string } & Record<string, unknown>): st
     case "device":
     case "list":
       return [String(beat.heading), ...(beat.items as string[])];
+    case "picture":
+      return [String(beat.heading)];
     case "close":
       return [String(beat.heading), String(beat.url)];
     default:

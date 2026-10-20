@@ -10,7 +10,7 @@ author: William Joseph
 
 ## meta
 post: BookTrust’s website had to serve the professionals who get children reading, without losing parents and carers. Audience insight came before layout.
-alt: Abstract motion graphic about the BookTrust website redesign. Audience groups are listed as text. There are no photographs of people.
+alt: Motion graphic about the BookTrust website. It ends on the published homepage, shown in full inside a device frame.
 
 ## title
 pair: whiteOnPurple
@@ -42,6 +42,14 @@ pair: inkOnAqua
 heading: Families still need a front door.
 body: A clear path for professionals, and one for parents and carers.
 caption: Parents and carers still need a clear path through the same website.
+
+## picture
+pair: inkOnCream
+heading: The homepage, with both front doors
+image: case-studies/booktrust-homepage.jpg
+alt: The published BookTrust homepage on a tablet, including the family hero and the route into support.
+caption: The BookTrust homepage keeps a way in for families and for professionals.
+minSeconds: 5
 
 ## statement
 pair: creamOnTeal

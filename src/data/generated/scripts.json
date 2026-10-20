@@ -8,7 +8,7 @@
     "sourceTitle": "Supporting families and professionals to get children reading",
     "author": "William Joseph",
     "post": "BookTrust’s website had to serve the professionals who get children reading, without losing parents and carers. Audience insight came before layout.",
-    "alt": "Abstract motion graphic about the BookTrust website redesign. Audience groups are listed as text. There are no photographs of people.",
+    "alt": "Motion graphic about the BookTrust website. It ends on the published homepage, shown in full inside a device frame.",
     "beats": [
       {
         "type": "title",
@@ -58,6 +58,15 @@
         "durationInFrames": 216
       },
       {
+        "type": "picture",
+        "pair": "inkOnCream",
+        "heading": "The homepage, with both front doors",
+        "image": "case-studies/booktrust-homepage.jpg",
+        "alt": "The published BookTrust homepage on a tablet, including the family hero and the route into support.",
+        "caption": "The BookTrust homepage keeps a way in for families and for professionals.",
+        "durationInFrames": 162
+      },
+      {
         "type": "statement",
         "pair": "creamOnTeal",
         "heading": "Insight before interface.",
@@ -74,7 +83,7 @@
         "durationInFrames": 108
       }
     ],
-    "durationInFrames": 1117
+    "durationInFrames": 1279
   },
   {
     "id": "charity-rebrands",
@@ -248,7 +257,7 @@
     "sourceTitle": "A refreshed brand and website for a bold new mission, culture and focus on fairness",
     "author": "William Joseph",
     "post": "Paul Hamlyn Foundation’s brand needed to feel as fair, and as warm, as the relationships behind it. A refreshed identity and a clearer fund finder closed that gap.",
-    "alt": "Abstract motion graphic about the Paul Hamlyn Foundation brand and website. A simple fund finder is shown. There are no photographs of people.",
+    "alt": "Motion graphic about the Paul Hamlyn Foundation brand and website. It shows the published fund finder, with the amount, duration and deadline.",
     "beats": [
       {
         "type": "title",
@@ -288,6 +297,15 @@
         "durationInFrames": 264
       },
       {
+        "type": "picture",
+        "pair": "inkOnMist",
+        "heading": "The fund finder, as it shipped",
+        "image": "case-studies/phf-fund-finder.jpg",
+        "alt": "The published Paul Hamlyn Foundation fund finder on a phone, beside cards for the amount, duration and deadline.",
+        "caption": "The fund finder shows the amount, the duration and when to apply.",
+        "durationInFrames": 162
+      },
+      {
         "type": "statement",
         "pair": "inkOnYellow",
         "heading": "A finder should remove a barrier.",
@@ -312,7 +330,7 @@
         "durationInFrames": 108
       }
     ],
-    "durationInFrames": 1297
+    "durationInFrames": 1459
   },
   {
     "id": "public-attitudes-to-ai",

@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import path from "node:path";
 import { getPair, type PairName } from "../theme/brand";
 import { assertEditorial } from "./editorial";
 import {
@@ -87,6 +89,8 @@ function onScreenText(beat: BeatDraft): string[] {
     case "device":
     case "list":
       return [beat.heading, ...beat.items];
+    case "picture":
+      return [beat.heading];
     case "close":
       return [beat.heading, beat.url];
     default: {
@@ -134,6 +138,10 @@ function lintBeat(beat: BeatDraft, context: string): void {
     case "list":
       check(beat.heading, "heading", "heading");
       beat.items.forEach((item, index) => check(item, "item", `item ${index + 1}`));
+      break;
+    case "picture":
+      check(beat.heading, "heading", "heading");
+      check(beat.alt, "body", "alt");
       break;
     case "close":
       check(beat.heading, "heading", "heading");
@@ -269,6 +277,25 @@ export function parseArticle(markdown: string, filename = "article"): VideoScrip
           caption,
         };
         break;
+      case "picture": {
+        const image = requireField(section, "image", context);
+        if (image.includes("..") || image.startsWith("/") || image.includes("\\")) {
+          throw new Error(`${context}: image must be a path inside public/.`);
+        }
+        const imagePath = path.join(process.cwd(), "public", image);
+        if (!existsSync(imagePath)) {
+          throw new Error(`${context}: no file at public/${image}.`);
+        }
+        draft = {
+          type: "picture",
+          pair,
+          heading: requireField(section, "heading", context),
+          image,
+          alt: requireField(section, "alt", context),
+          caption,
+        };
+        break;
+      }
       case "close":
         draft = {
           type: "close",
