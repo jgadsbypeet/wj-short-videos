@@ -1,5 +1,3 @@
-import { existsSync } from "node:fs";
-import path from "node:path";
 import { getPair, type PairName } from "../theme/brand";
 import { assertEditorial } from "./editorial";
 import {
@@ -17,6 +15,11 @@ type RawSection = {
 };
 
 const PILLARS = new Set<Pillar>(["practical-advice", "data-insight", "case-study"]);
+
+export type ParseArticleOptions = {
+  /** Confirms a picture file exists. Ingest checks the disk. The preview checks its own list. */
+  assertImage?: (image: string, context: string) => void;
+};
 
 function parseFrontmatter(markdown: string): { data: Record<string, string>; body: string } {
   const match = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
@@ -159,7 +162,11 @@ function withDuration(beat: BeatDraft, minSeconds?: number): Beat {
   return { ...beat, durationInFrames: readable + ENTRANCE_FRAMES } as Beat;
 }
 
-export function parseArticle(markdown: string, filename = "article"): VideoScript {
+export function parseArticle(
+  markdown: string,
+  filename = "article",
+  options: ParseArticleOptions = {},
+): VideoScript {
   const { data, body } = parseFrontmatter(markdown);
   const need = (key: string) => {
     const value = data[key];
@@ -282,10 +289,7 @@ export function parseArticle(markdown: string, filename = "article"): VideoScrip
         if (image.includes("..") || image.startsWith("/") || image.includes("\\")) {
           throw new Error(`${context}: image must be a path inside public/.`);
         }
-        const imagePath = path.join(process.cwd(), "public", image);
-        if (!existsSync(imagePath)) {
-          throw new Error(`${context}: no file at public/${image}.`);
-        }
+        options.assertImage?.(image, context);
         draft = {
           type: "picture",
           pair,

@@ -3,6 +3,7 @@ import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, it } from "node:test";
 import { parseArticle } from "../src/lib/parse-article";
+import { assertPublicImage } from "../src/lib/public-image";
 import { framesToSeconds, MIN_STATEMENT_SECONDS, readingFrames, ENTRANCE_FRAMES } from "../src/lib/timing";
 import { layout } from "../src/theme/brand";
 
@@ -16,7 +17,9 @@ describe("production scripts", () => {
 
   for (const file of files) {
     it(`accepts ${file}`, () => {
-      const script = parseArticle(readFileSync(path.join(articlesDir, file), "utf8"), file);
+      const script = parseArticle(readFileSync(path.join(articlesDir, file), "utf8"), file, {
+        assertImage: assertPublicImage,
+      });
       const seconds = framesToSeconds(script.durationInFrames);
       assert.ok(seconds >= 30 && seconds <= 60, `${seconds.toFixed(1)}s`);
       assert.equal(script.beats[0]?.type, "title");
